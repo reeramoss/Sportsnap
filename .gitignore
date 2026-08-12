@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# secrets — never commit
+.env
+.env.local
+.env*.local
+.spend-ledger.json
+
+# build / render output
+render/out/
+render/dist/
+app/.expo/
+app/dist/
+app/web-build/
+
+# Source photography is Lindsey Wilson College's copyrighted material and is
+# large binary data. Kept locally, deliberately NOT committed. See CLAUDE.md
+# "Source assets" for how to re-fetch from Flickr.
+render/public/athlete/
+render/public/cutout/
+render/public/cutout_cc/
+render/public/api_in/
+render/public/plates/
+render/public/generated/
+render/public/venue/
+render/public/reference/
+
+# macOS
+.DS_Store
+render/public/brand/
+__pycache__/
+*.pyc
