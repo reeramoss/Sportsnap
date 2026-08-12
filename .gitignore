@@ -31,3 +31,10 @@ render/public/reference/
 render/public/brand/
 __pycache__/
 *.pyc
+
+# ── Kept LOCAL only (repo is public) ────────────────────────────────
+# Competitive research and strategic positioning. These name specific
+# competitors, their pricing, and our differentiation thesis — not for
+# public indexing. Live on disk + in local git history is intentional.
+research/
+CLAUDE.md
