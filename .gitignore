@@ -38,3 +38,4 @@ __pycache__/
 # public indexing. Live on disk + in local git history is intentional.
 research/
 CLAUDE.md
+render/public/cutout_lit/
